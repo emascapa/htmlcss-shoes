@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product {
+    height: 100vh;
+    width: 100vw;
+}
+
+.area1 {
+    background-color: red;
+}
+
+.area2 {
+    background-color: green;
+}
+
+.area3 {
+    background-color: yellow;
+}
+
+.area1, .area2 {
+    color: yellow;
+}
+
+.area3 {
+    color: green;
+}
