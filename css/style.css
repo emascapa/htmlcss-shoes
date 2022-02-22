@@ -5,7 +5,7 @@
 }
 
 :root {
-    --font-to-use: Arial, Helvetica, sans-serif;
+    --font-to-use: 'Archivo Black', sans-serif;
 }
 
 .product {
@@ -40,6 +40,11 @@
 
 .product_content>img {
     max-width: 100%;
+}
+
+.product_content>h2 {
+    font-size: 3.2rem;
+    text-transform: uppercase;
 }
 
 .product_content {
